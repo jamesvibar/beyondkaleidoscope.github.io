@@ -38,7 +38,7 @@
 									{{ if .Params.video }}
 									<video class="fluid-video" src="{{ $video | relURL }}"  onclick="this.paused ? this.play() : this.pause();" controls></video>
 									{{ else }}
-									<img src="{{ $portrait | relURL }}" alt="{{.Title}}">
+									<img style="display: block; max-width: 100%;" src="{{ $portrait | relURL }}" alt="{{.Title}}">
 									{{ end }}
 								</div>
 
