@@ -34,10 +34,7 @@
 	<script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCa78isn_mmKpCYexVYgp2_ODCgjJ5nkn4&callback=initMap">
     </script>
-	<script
-  src="http://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
+	<script src="/js/jquery-3.3.1.min.js"></script>
 	{{ range $element := $.Scratch.Get "jsFiles" }}
 	<script src="{{.}}"></script>
 	{{ end }}
