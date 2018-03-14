@@ -1,0 +1,29 @@
+{{ $css := index .Site.Data.hash.hash "main.css" }}
+{{ $cssPath := printf "%s/%s" "css" $css }}
+{{ range $element := $.Site.Params.static.jsFiles }}
+{{$js := index $.Site.Data.hash.hash $element }}
+{{$jsPath := printf "%s/%s" "js" $js | relURL}}
+{{$.Scratch.Add "jsFiles" (slice $jsPath) }}
+{{ end }}
+
+<html>
+	
+	<head>
+		<!-- Basic Site Metadata -->
+		<meta charset="utf-8">
+
+		<title>{{$.Title}}</title>
+		
+		<meta name="description" content="Freelance website designer and developer based in the Philippines.">
+		<meta name="keywords" content="web designer, web developer, web design, site development, illustration">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+		<link rel="icon" type="image/png" href=" {{ "img/favicon-32x32.png" | relURL }} " sizes="32x32" />
+		<link rel="icon" type="image/x-icon" href="{{ "img/favicon.ico" | relURL }}" />
+		<!-- <meta name="robots" content="noindex"> -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+		<link rel="stylesheet" href="{{ $cssPath | relURL}}">
+	</head>
+
+	<body>

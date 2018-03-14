@@ -1,0 +1,28 @@
+<div id="exhibitors" class="block exhibitors">
+	<div class="exhibitors-wrapper">
+		
+		<div class="title-container">
+			<h2 class="title-header">THE EXHIBITORS</h2>
+			<hr class="title-divider">
+			<p class="title-caption">Meet the people behind the scenes that made this exhibit possible. Listen to their stories by clicking the link below</p>
+		</div>
+
+		<div class="exhibitors-container">
+			
+			<a href="/exhibitor" class="exhibitors-view-all">View All</a>
+
+			<div class="exhibitors-gallery-container">
+				<div class="exhibitors-gallery">
+					{{ range first 15 ($element := where .Data.Pages "Section" "exhibitor") }}
+					{{ $portrait := printf "%s%s" "img/exhibitors/" .Params.portrait}}
+					<div class="exhibitors-image">
+						<img src="{{ $portrait | relURL}}" alt="{{.Title}}">
+					</div>
+					{{ end }}
+				</div>
+			</div>
+
+		</div>	
+
+	</div>
+</div>

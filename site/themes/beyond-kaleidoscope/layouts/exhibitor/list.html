@@ -1,0 +1,60 @@
+{{ partial "header.html" . }}
+
+	<div id="exhibitorsPage" class="block exhibitors-page">
+		
+		<div class="exhibitors-page-wrapper">
+			<div class="exhibitors-title">
+				<div class="page-title">{{.Title}}</div>
+			</div>
+
+			<nav class="site-nav group visible">
+				<a class="logo-link" href="#exhibitorsPage"></a>
+				<ul class="main-links group">
+					<li class="main-link special"><a href="/">Back to home</a></li>
+				</ul>
+			</nav>
+
+			<div class="exhibitors-container">
+
+				<ul class="gridder exhibitors-grid">
+
+		             <!-- You can load specify which content is loaded by specifying the #ID of the div where the content is  -->
+
+		            {{ range $index, $element := .Pages }}
+		            {{ $portrait := printf "%s%s" "img/exhibitors/" .Params.portrait }}
+					<li class="gridder-list" data-griddercontent="#content{{$index}}">
+		                <img src="{{ $portrait | relURL }}" alt="{{.Title}}"/>
+		            </li>
+					{{ end }}
+
+					{{ range $index, $element := .Pages }}
+					{{ $portrait := printf "%s%s" "img/exhibitors/" .Params.portrait }}
+					{{ $video := printf "%s%s" "img/exhibitors/diaries/" .Params.video }}
+						<div id="content{{ $index }}" class="gridder-content">
+
+							<div class="gridder-content-group group">
+								
+								<div class="video-container">
+									{{ if .Params.video }}
+									<video class="fluid-video" src="{{ $video | relURL }}"  onclick="this.paused ? this.play() : this.pause();" controls></video>
+									{{ else }}
+									<img src="{{ $portrait | relURL }}" alt="{{.Title}}">
+									{{ end }}
+								</div>
+
+								<div class="info-container">
+									{{ .Content }}
+								</div>
+
+							</div>
+						</div>
+					{{ end }}
+
+		        </ul>
+
+			</div>
+		</div>
+
+	</div>
+
+{{ partial "footer.html" . }}

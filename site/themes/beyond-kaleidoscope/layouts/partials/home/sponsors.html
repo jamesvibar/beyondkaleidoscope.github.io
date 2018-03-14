@@ -1,0 +1,20 @@
+<div class="block sponsors">
+	<div class="sponsors-wrapper row">
+		
+		<div class="title-container">
+			<h2 class="title-header">SPONSORS</h2>
+		</div>
+
+		<div class="sponsors-wrapper">
+			<div class="sponsors-container">
+			{{ range where .Data.Pages "Section" "sponsor" }}
+			{{ $portrait := printf "%s%s" "img/sponsors/" .Params.portrait}}
+				<a class="sponsor-unit" href="{{.Params.link}}"><img src="{{ $portrait | relURL }}" alt="{{.Title}}"></a>
+			{{ end }}
+			</div>
+			<p class="sponsors-caption">Kaleidoscope: Beyond Control would not be possible without our generous sponsors!</p>
+		</div>
+			
+
+	</div>
+</div>

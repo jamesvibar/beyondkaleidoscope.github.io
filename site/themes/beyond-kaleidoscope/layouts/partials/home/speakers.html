@@ -1,0 +1,43 @@
+<div id="speakers" class="block speakers">
+	<div class="speaker-left">SPEAKERS</div>
+	<div class="title-container">
+		<h2 class="title-header">Our Speakers</h2>
+		<hr class="title-divider">
+		<p class="title-caption">Get a chance to listen to their stories and indulge yourself in creativity!</p>
+	</div>
+
+	<div class="speakers-wrapper row">
+
+			<div class="speakers-container">
+				{{ range $index, $element := where .Data.Pages "Section" "speaker" }}
+				{{ $portrait := printf "%s%s" "img/speakers/" .Params.portrait}}
+				<a href="{{.Params.website}}" target="_blank" class="speaker-bubble">
+					<div class="speaker-image">
+						<img src="{{ $portrait | relURL }}" alt="">
+						<p class="speaker-name">{{.Title}}</p>
+					</div>
+				</a>
+				{{ end }}
+			</div>
+
+			<!-- <div id="infoContainer" class="speaker-info-container">
+
+				{{ range first 1 (where .Data.Pages "Section" "speaker") }}
+
+				<h3 id="name" class="speaker-name">{{.Title}}</h3>
+
+				<div id="info" class="speaker-info">{{.Content}}</div>
+
+				<div id="social" class="speaker-social-media">
+					<a class="speaker-social-media-icon" href="#"><i class="fab fa-facebook-f"></i></a>
+					<a class="speaker-social-media-icon" href="#"><i class="fab fa-twitter"></i></a>
+					<a class="speaker-social-media-icon" href="#"><i class="fab fa-instagram"></i></a>
+				</div>
+
+				{{ end }}
+
+			</div> -->
+
+		</div>
+	
+</div>

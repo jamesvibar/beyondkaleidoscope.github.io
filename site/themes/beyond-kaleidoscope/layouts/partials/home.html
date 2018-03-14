@@ -1,0 +1,48 @@
+<!-- <div class="jv-loader"></div>
+ -->
+<div id="top" class="site-wrapper">
+
+	<nav class="site-nav group">
+		<a class="logo-link" href="#top"></a>
+		<ul class="main-links group">
+			<li class="main-link"><a href="#speakers">Speakers</a></li>
+			<li class="main-link"><a href="#exhibitors">Exhibitors</a></li>
+			<li class="main-link"><a href="#schedule">Schedule</a></li>
+			<li class="main-link"><a href="#about">About</a></li>
+			<li class="main-link"><a href="#contact">Contact</a></li>
+		</ul>
+	</nav>
+	
+	<div class="scene-container">
+		<ul id="jv-scene" class="scene">
+			<li class="layer" data-depth="0.00"></li>
+			<li class="layer" data-depth="0.30"><div class="background"></div></li>
+			<li class="layer" data-depth="0.4">
+				<div class="title">
+					<img class="scene-logo" src="{{"img/kaleidoscope-logo-colored.png" | relURL}}" alt="">
+					<h1 class="scene-title">March 23, 24, 25, 2018</h1>
+					<h1 class="scene-subtitle">@BASILISK HOTEL - TAGAYTAY CITY</h1>
+				</div>
+			</li>
+			<li class="layer" data-depth="0.70"><div class="shard top-left"><img src="{{ "img/shard-top-left.png" | relURL }}" alt="Shard Top Left"></div></li>
+			<li class="layer" data-depth="0.70"><div class="shard top-right"><img src="{{ "img/shard-top-right.png" | relURL }}" alt="Shard Top Right"></div></li>
+			<li class="layer" data-depth="0.70"><div class="shard bottom-left"><img src="{{ "img/shard-bottom-left.png" | relURL }}" alt="Shard Bottom Left"></div></li>
+			<li class="layer" data-depth="0.70">
+				<div class="shard bottom-right">
+					<img src="{{"img/shard-bottom-right.png" | relURL}}" alt="Shard Bottom Right">
+				</div>
+			</li>
+		</ul>
+
+		<a href="#speakers" class="go-beyond">Go Beyond</a>
+	</div>
+
+	{{ partial "home/speakers.html" . }}
+	{{ partial "home/sponsors.html" . }}
+	{{ partial "home/exhibitors.html" . }}
+	{{ partial "home/eventdetails.html" . }}
+	{{ partial "home/about.html" . }}
+	{{ partial "home/video.html" . }}
+	</div>
+
+</div>

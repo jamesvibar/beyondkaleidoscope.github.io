@@ -1,0 +1,12 @@
+baseURL = "http://beyondkaleidoscope.github.io/"
+languageCode = "en-us"
+title = "Kaleidoscope: Beyond Control"
+theme = "beyond-kaleidoscope"
+
+[params]
+	author = "James Vibar"
+
+# Static Files (CSS, JS, IMAGES)
+[params.static]
+	cssFile = "main.css"
+	jsFiles = ["slick.min.js", "parallax.min.js", "jquery.gridder.min.js", "main.js"]

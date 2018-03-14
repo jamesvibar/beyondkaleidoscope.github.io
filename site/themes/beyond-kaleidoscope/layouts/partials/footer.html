@@ -1,0 +1,47 @@
+	<footer id="contact">
+		<div class="contact-wrapper group">
+			
+			<div class="facebook-container">
+				<h3 class="contact-title">Connect with us</h3>
+				<p>If you haven't followed us yet, you're missing on things! Follow us on our social media sites and be updated!</p>
+
+				<a class="social-icon" target="_blank" href="https://www.facebook.com/beyondkaleidoscope/"><i class="fab fa-facebook-f"></i></a>
+				<a class="social-icon" target="_blank" href="https://www.instagram.com/kaleidoscope.exhibit/"><i class="fab fa-instagram"></i></a>
+			</div>
+
+			<div class="contact-container">
+				<h3 class="contact-title">Get In Touch</h3>
+				<p>Use the form below for general inquiries about event details, tickets, and sponsorship:</p>
+
+				<form action="https://formspree.io/kaleidoscope.exhibit@gmail.com"
+				      method="POST">
+				    <input type="text" name="name" placeholder="Your Name">
+				    <input type="email" name="_replyto" placeholder="Your Email">
+				    <textarea name="message" placeholder="Your Message"></textarea>
+				    <input class="btn-submit" type="submit" value="Send">
+				</form>
+			</div>
+
+		</div>
+
+		<div class="bottom-bar">
+			© 2018 Kaleidoscope: Beyond Control | Made with <span style="color: red">♥</span> by <a href="http://jamesvibar.com/">James Vibar</a>
+		</div>
+	</footer>
+
+	{{ partial "home/map.html" . }}
+
+	<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCa78isn_mmKpCYexVYgp2_ODCgjJ5nkn4&callback=initMap">
+    </script>
+	<script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+	{{ range $element := $.Scratch.Get "jsFiles" }}
+	<script src="{{.}}"></script>
+	{{ end }}
+
+	</body>
+
+</html>
