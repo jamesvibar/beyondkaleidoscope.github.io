@@ -5,6 +5,6 @@ video: ""
 ---
 
 ## Jared Yaun
-### Fashion Photographer
+### Creative Artist, Fashion Photographer
 
 Meet Jared Yaun.
