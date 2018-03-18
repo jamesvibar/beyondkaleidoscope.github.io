@@ -1,4 +1,4 @@
-baseURL = "http://beyondkaleidoscope.github.io/"
+baseURL = "https://www.beyondkaleidoscope.com/"
 languageCode = "en-us"
 title = "Kaleidoscope: Beyond Control"
 theme = "beyond-kaleidoscope"
