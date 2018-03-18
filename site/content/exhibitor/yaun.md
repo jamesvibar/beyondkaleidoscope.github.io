@@ -5,8 +5,12 @@ video: ""
 ---
 
 ## Jared Yaun
-### Creative Artist, Fashion Photographer
+### Digital Illustrator, Fashion Photographer, Traditional Artist, Graphic Artist
 
-“It’s not about the label of being an artist, Its what you do that truly counts.”
+“Comfort, the enemy of progress” - P.T Barnum
+
+Behance: [jaredyaun](http://www.behance.net/jaredyaun)
+Instagram: [@jaredyaun](http://instagram.com/jaredyaun)
+Email: [creativework.red@gmail.com](mailto:creativework.red@gmail.com)
 
 Meet Jared Yaun.
