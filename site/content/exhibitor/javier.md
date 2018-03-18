@@ -1,13 +1,12 @@
 ---
-title: "Tanteco"
-portrait: "tanteco.jpg"
-video: "tanteco.mp4"
+title: "Javier"
+portrait: "javier.jpg"
+video: "javier.mp4"
 ---
 
-## Hannah Tanteco
-### Traditional Art, Creative Writing, Special Effects Make-Up Artist
+## Alyssa Jayne Javier
+### Traditional/Digital Illustrator, Film
 
+"I've come to terms that I am forever a chameleon - forever changing and adapting."
 
-"By letting the enchantment of art console me, I was able to understand the chaos that was always attached to life."
-
-Meet Hannah Tanteco.
+Meet Alyssa Jayne Javier.

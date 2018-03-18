@@ -9,6 +9,15 @@
 <html>
 	
 	<head>
+		<!-- Global Site Tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id={{.Site.GoogleAnalytics}}"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', '{{.Site.GoogleAnalytics}}');
+		</script>
 		<!-- Basic Site Metadata -->
 		<meta charset="utf-8">
 
@@ -24,6 +33,12 @@
 		<!-- <meta name="robots" content="noindex"> -->
 		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
 		<link rel="stylesheet" href="{{ $cssPath | relURL}}">
+
+		<meta property="og:url" content="{{ .Permalink }}">
+		<meta property="og:title" content="{{ .Title }}">
+		<meta property="og:description" content="{{ .Site.Params.description }}">
+		<meta property="og:image" content="{{ "img/og-image.jpg" | relURL }}">
+
 	</head>
 
 	<body>

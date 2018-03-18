@@ -2,9 +2,11 @@ baseURL = "http://beyondkaleidoscope.github.io/"
 languageCode = "en-us"
 title = "Kaleidoscope: Beyond Control"
 theme = "beyond-kaleidoscope"
+googleAnalytics = "UA-115901002-1"
 
 [params]
 	author = "James Vibar"
+	description = "Kaleidoscope: Beyond Control is a Multimedia Arts Exhibit presented by Parallax Productions, a non-profit organization composed of students from MMA 402."
 
 # Static Files (CSS, JS, IMAGES)
 [params.static]

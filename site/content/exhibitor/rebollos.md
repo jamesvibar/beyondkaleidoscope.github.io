@@ -5,8 +5,10 @@ video: "rebollos.mp4"
 ---
 
 ## Elijah Rebollos
-### Creative Artist, Photographer, Videographer, Digital Illustrator
+### Digital Illustrator, Former Child
 
-"Long years have passed, only now I realized that art is not only about getting creative, but also about feeding the emotions of a hungry mind."
+"We can be Heroes, Just for one day" - David Bowie
+
+IG - [@eli.rebs](https://www.instagram.com/eli.rebs/)
 
 Meet Elijah Rebollos.

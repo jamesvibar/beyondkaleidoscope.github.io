@@ -9,4 +9,6 @@ video: "vibar.mp4"
 
 "My journey for the past 4 years has been tough, it was full of challenges that I had to overcome, challenges that I am thankful for."
 
+[www.jamesvibar.com](http://www.jamesvibar.com/)
+
 Meet James Vibar.
