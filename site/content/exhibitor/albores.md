@@ -5,7 +5,7 @@ video: "albores.mp4"
 ---
 
 ## Jhay Albores
-### Photographer
+### Photo/Video Editing
 
 "I have come across many challenges and failures, but I considered it as an experience and 
 learned from it."

@@ -5,7 +5,7 @@ video: "fabroa.mp4"
 ---
 
 ## Karl Fabroa
-### Multimedia Artist
+### Photography, Videography
 
 "It's great that choosing multimedia arts as my career I'm now in the flock of people whom I share the same choice likes, ideas and preference."
 

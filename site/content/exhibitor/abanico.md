@@ -5,8 +5,11 @@ video: "abanico.mp4"
 ---
 
 ## Jeric Abanico
-### Digital Illustrator
+### Digital Illustrator, Graphic Design, Fashion Photography, Videography
 
-"My experiences in this program have helped me discover what I am capable of as an artist and improve who I am as an individual."
+An artist who loves fashion and any cute or weird stuff you can name.
+
+IG: [@jericabanico](http://www.instagram.com/jericabanico)
+Email: [abanicojeric@gmail.com](mailto:abanicojeric@gmail.com)
 
 Meet Jeric Abanico.
