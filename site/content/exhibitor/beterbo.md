@@ -5,8 +5,12 @@ video: "beterbo.mp4"
 ---
 
 ## Lindsay Beterbo
-### Multimedia Artist
+### Traditional Art and Graphic Design
 
-"My journey as a MMA student has a whole spectrum of stress and deadlines and sleepless nights. but in-spite of that it was filled with love and kindness and passion that makes it worth it."
+An artist who crave for adventure and believe in the kindness of strangers.
+
+IG: [@saybeterbs](http://www.instagram.com/saybeterbs)
+IG: [@lindsaynity](http://www.instagram.com/lindsaynity)
+Email: [saybeterbo@gmail.com](mailto:saybeterbo@gmail.com)
 
 Meet Lindsay Beterbo.

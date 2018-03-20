@@ -7,6 +7,9 @@ video: "arcadio.mp4"
 ## David Arcadio
 ### 3D Artist, Digital Illustrator
 
-"I've experience a lot of new things that are related to my interests and to my field, and up until now Im still willing to learn more and determined to discover new ideas."
+Too much darkness can kill you and too much light could blind you. that's why I'm a pigeon.
+
+IG: [dgnarcadio](http://www.instagram.com/dgnarcadio)
+<https://0kira33kira0.deviantart.com/>
 
 Meet David Arcadio.

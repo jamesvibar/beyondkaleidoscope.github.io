@@ -9,4 +9,6 @@ video: "fernandez.mp4"
 
 "My journey as a multimedia arts student was fun, a little bit of a struggle and stressful. But here I am, graduating, alive and kicking."
 
+IG: [@patattass](http://www.instagram.com/patattass)
+
 Meet Jake Fernandez.

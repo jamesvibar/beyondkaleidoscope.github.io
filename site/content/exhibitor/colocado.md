@@ -1,12 +1,16 @@
 ---
-title: "Ladublan"
-portrait: "ladublan.jpg"
-video: "ladublan.mp4"
+title: "Colocado"
+portrait: "colocado.jpg"
+video: "colocado.mp4"
 ---
 
-## Rheno Ladublan
-### 3D Artist
+## Kristin Colocado
+### Photography, Videography, Visual Effects
 
-"The only thing left is motivation, the one that makes me going and help me reach my goals."
+“Every artist was first an amateur.” - Ralph Waldo Emerson
 
-Meet Rheno Ladublan.
+IG: [@kristinspired_](http://www.instagram.com/kristinspired_)
+Email: [kristincolocado@outlook.com](mailto:krinstincolocado@outlook.com)
+Behance: [kristinspired_](http://www.behance.com/kristinspired_)
+
+Meet Kristin Colocado.

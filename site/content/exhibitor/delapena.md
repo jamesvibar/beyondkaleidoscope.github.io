@@ -5,8 +5,8 @@ video: "delapena.mp4"
 ---
 
 ## Erisha Mae Dela Peña
-### Photographer, Videographer, Painting
+### Photographer, Videographer, Visual Effects, Traditional Art, Graphic Design
 
-"Eversince I was a child I was fascinated by Art. I love taking candid photos because its real, not a smile or pose that is forced but its just natural."
+"Art, freedom and creativity will change society faster than politics." - Victor Pinchuk
 
 Meet Erisha Mae Dela Peña.

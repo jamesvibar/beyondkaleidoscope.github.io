@@ -5,8 +5,11 @@ video: "tanada.mp4"
 ---
 
 ## Reggie Tanada
-### Multimedia Artist
+### Traditional & Digital Illustrator, Layout Artist, Photographer, Videographer
 
-"For me art is our heart. Imagine you without heart, and this world without art, dead and dull. In other words whatever context in, whatever the form art is only ever interested in appearing as one thing; Beauty"
+"Art enables us to find ourselves and lose ourselves at the same time." - Thomas Merton
+
+IG: [ibongadanat](http://www.instagram.com/ibongadanat)
+Email: [reggietanada14768@gmail.com](mailto:reggietanada14768@gmail.com)
 
 Meet Reggie Tanada.

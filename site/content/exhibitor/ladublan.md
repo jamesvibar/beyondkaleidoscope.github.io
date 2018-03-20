@@ -1,12 +1,12 @@
 ---
-title: "Colocado"
-portrait: "colocado.jpg"
-video: "colocado.mp4"
+title: "Ladublan"
+portrait: "ladublan.jpg"
+video: "ladublan.mp4"
 ---
 
-## Kristin Colocado
-### Photographer
+## Rheno Ladublan
+### 3D Artist
 
-"I have found myself fallen in love with the course I'm in, and this had helped me grew."
+"The only thing left is motivation, the one that makes me going and help me reach my goals."
 
-Meet Kristin Colocado.
+Meet Rheno Ladublan.

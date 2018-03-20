@@ -5,8 +5,11 @@ video: "mainit.mp4"
 ---
 
 ## Lorenzo Mainit
-### Photographer
+### Photography, Videography, Digital Illustration
 
-"The people around me helps me to grow as an individual and the reason for who I am today. "
+An artist who has passion on doing crafts and stuffs. Sucker for any cute things.
+
+IG: [@enzomainit](http://www.instagram.com/enzomainit)
+Behance: [enzohot](http://www.behance.com/enzohot)
 
 Meet Lorenzo Mainit.
