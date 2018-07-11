@@ -2,4 +2,32 @@
 label: Speaker
 hide_body: true
 is_partial: false
-fields: []
+fields:
+- type: text
+  default: Title
+  label: name
+  name: title
+  description: speaker's name
+  config:
+    required: true
+- type: text
+  label: website
+  name: website
+  config:
+    required: true
+- type: file
+  label: portrait
+  name: portrait
+  description: picture of the speaker
+- type: text
+  label: facebook
+  name: facebook
+  description: optional
+- type: text
+  name: twitter
+  label: twitter
+  description: optional
+- type: text
+  label: instagram
+  name: instagram
+  description: optional
