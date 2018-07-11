@@ -31,3 +31,5 @@ fields:
   label: instagram
   name: instagram
   description: optional
+pages:
+- site/content/speaker/shaina-libunao.md
